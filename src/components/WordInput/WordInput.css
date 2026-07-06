@@ -1,0 +1,32 @@
+.word-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.word-input-field {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d0d0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.word-input-field:focus {
+  outline: none;
+  border-color: #5b6cff;
+}
+
+.word-input-button {
+  background: #5b6cff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.word-input-button:disabled {
+  background: #b5bcf0;
+  cursor: default;
+}

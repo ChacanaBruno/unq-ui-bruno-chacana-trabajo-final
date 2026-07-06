@@ -1,0 +1,23 @@
+.game {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.game-title {
+  margin: 0 0 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #3b3b58;
+}
+
+@media (max-width: 480px) {
+  .game {
+    padding: 1rem;
+  }
+
+  .game-title {
+    font-size: 1.4rem;
+  }
+}

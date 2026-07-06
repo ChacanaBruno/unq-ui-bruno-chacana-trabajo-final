@@ -1,0 +1,15 @@
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreboard-score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b3b58;
+}
+
+.scoreboard-count {
+  font-size: 0.85rem;
+  color: #8a8aa0;
+}

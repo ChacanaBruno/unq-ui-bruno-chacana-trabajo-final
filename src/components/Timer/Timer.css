@@ -1,0 +1,21 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.timer-label {
+  font-size: 0.75rem;
+  color: #8a8aa0;
+  text-transform: uppercase;
+}
+
+.timer-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b3b58;
+}
+
+.timer-low .timer-value {
+  color: #d64545;
+}

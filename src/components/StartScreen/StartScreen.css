@@ -1,0 +1,23 @@
+.start-screen {
+  text-align: center;
+}
+
+.start-rules {
+  color: #5a5a72;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.start-button {
+  background: #5b6cff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background: #4655d6;
+}
