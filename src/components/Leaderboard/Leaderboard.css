@@ -1,0 +1,22 @@
+.leaderboard {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.leaderboard-title {
+  color: #3b3b58;
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.leaderboard-list {
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  max-width: 220px;
+  color: #5a5a72;
+}
+
+.leaderboard-item {
+  padding: 0.2rem 0;
+}

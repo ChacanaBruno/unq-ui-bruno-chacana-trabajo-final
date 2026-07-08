@@ -1,0 +1,33 @@
+.game-over {
+  text-align: center;
+}
+
+.game-over-title {
+  color: #3b3b58;
+  margin: 0 0 1rem;
+}
+
+.game-over-line {
+  color: #5a5a72;
+  margin: 0.25rem 0;
+}
+
+.game-over-line strong {
+  color: #5b6cff;
+  font-size: 1.2rem;
+}
+
+.game-over-button {
+  margin-top: 1.2rem;
+  background: #5b6cff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.game-over-button:hover {
+  background: #4655d6;
+}
