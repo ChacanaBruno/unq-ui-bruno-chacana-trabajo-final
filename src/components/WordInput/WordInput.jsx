@@ -21,10 +21,11 @@ const WordInput = () => {
         value={value}
         onChange={(event) => setValue(event.target.value)}
         placeholder="Escribí una palabra"
+        autoComplete="off"
         autoFocus
         disabled={isChecking}
       />
-      <button className="word-input-button" type="submit" disabled={isChecking}>
+      <button className="word-input-button" type="submit" disabled={isChecking || !value.trim()}>
         {isChecking ? 'Validando...' : 'Enviar'}
       </button>
     </form>
