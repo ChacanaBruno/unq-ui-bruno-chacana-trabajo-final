@@ -21,6 +21,7 @@ const WordInput = () => {
         value={value}
         onChange={(event) => setValue(event.target.value)}
         placeholder="Escribí una palabra"
+        aria-label="Ingresá una palabra"
         autoComplete="off"
         autoFocus
         disabled={isChecking}

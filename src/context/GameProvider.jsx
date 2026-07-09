@@ -46,7 +46,7 @@ export const GameProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState)
 
   const tick = useCallback(() => dispatch({ type: 'TICK' }), [])
-  useTimer(state.status === 'playing', tick)
+  useTimer(state.status === 'playing' && state.words.length > 0, tick)
 
   const startGame = () => dispatch({ type: 'START_GAME' })
 
